@@ -1,0 +1,16 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true, //これ追加しないとjsonファイル読み込めない
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "jsx": "react-jsx",
+    }
+}
